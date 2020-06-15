@@ -1,0 +1,23 @@
+language: go
+
+git:
+  depth: 1
+
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.72.0/hugo_0.72.0_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  repo: mylife6585/mylife6585.github.com
+  target_branch: master
+  email: deploy@travis-ci.org
+  name: deployment-bot
