@@ -190,4 +190,8 @@ http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html
 
     去掉文章中的draft
 
+3. 博客更新之后,github pages的custom domain失效
+
+    增加static/CNAME文件，内容为自己的custom domain, [参考官网](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
 
