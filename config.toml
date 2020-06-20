@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://mylife6585.github.io"
+baseURL = "https://blog.life6585.com"
 title = "life6585's Blog"
 languageCode = "en"
 hasCJKLanguage = true
