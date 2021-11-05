@@ -29,6 +29,8 @@ https网站，星巴克、酒店等公共wifi情况下访问会报错：
 
 ## 解决
 
+关闭hsts
+
 我们用的是nginx-ingress
 
 添加nginx-configuration.yaml
