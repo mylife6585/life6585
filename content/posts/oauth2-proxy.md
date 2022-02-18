@@ -16,6 +16,9 @@ book.test.io实现oauth鉴权
 鉴权失败，跳转登录页面，登录成功把access_token设置到cookie TESTAccessToken
 
 
+```
+opm install ledgetech/lua-resty-http
+```
 
 ```
 #nginx.conf
